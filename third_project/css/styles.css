@@ -29,8 +29,13 @@ h3{
   font-weight: 900;
 }
 
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
 .card-deck {
-  justify-content: center;
   padding: 3% 2%;
 }
 
