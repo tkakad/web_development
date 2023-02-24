@@ -1,0 +1,35 @@
+body{
+    background-color: #eaf6f6;
+    margin: 2%;
+}
+
+h1, h2{
+    color: #66bfbf;
+}
+
+hr{
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 0.3rem;
+    margin: 2rem auto;
+    width: 5%;
+}
+
+img{
+    width: 20rem;
+}
+
+table{
+    margin: auto 1%;
+    width: 100%;
+}
+
+.content{
+    margin: auto 1%;
+}
+
+.profile-table{
+    /* margin: auto; */
+    width: 35%;
+}

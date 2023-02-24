@@ -4,22 +4,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <title>Tejas Kakad</title>
-    </head>
+        <link rel="stylesheet" href="styles.css">
+    </head> 
 
-    <body style="margin: 1%">
-        
+    <body>
         <div class="profile">
-            <table width="100%">
+            <table class="profile-table">
                 <tr>
                     <td>
-                        <img src="Tejas.png" alt="Tejas-img">
+                        <img  src="Tejas.png" alt="Tejas-img">
                     </td>
                     <td>
                         <h1>Tejas Kakad</h1>
-                        <p>Bachelor of Science, Computer Sciences</p>
-                        <p>Texas A&M University</p>
+
+                        <p>Bachelor of Science, Computer Science</p>
+                        <p><a href="https://www.tamu.edu/">Texas A&M University</a></p>
                         <p>Phone: +1 (409)-877-6760</p>
                         <p>Email: kakadtejas1027@gmail.com</p>
                     </td>
@@ -31,23 +31,67 @@
         
         <div class="introduction">
             <h2>Introduction</h2>
-            <p>Graduate with Bachelor of Science degree in <strong>Computer Science</strong>, and a minor in <strong>Cybersecurity</strong> and <strong>Mathematics</strong>. Actively looking for Software Engineer, Full-Stack Web Developer, Data Engineer, or Python Developer, Entry Level full time roles. Exclusively proficient with Python and C/C++. <strong>6 months</strong> of professional experience, interning as a Data Science Researcher at the <strong>Urban Resilience. AI Lab, Texas A&M University</strong>.</p>
+
+            <div class="content">
+                <p>Graduate with Bachelor of Science degree in <strong>Computer Science</strong>, and a minor in <strong>Cybersecurity</strong> and <strong>Mathematics</strong>. Actively looking for Software Engineer, Full-Stack Web Developer, Data Engineer, or Python Developer, Entry Level full time roles. Exclusively proficient with Python and C/C++. <strong>6 months</strong> of professional experience, interning as a Data Science Researcher at the <strong>Urban Resilience. AI Lab, Texas A&M University</strong>.</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="employment">
+            <h2>Work History</h2>
+
+            <table cellspacing="20">
+                <tr>
+                    <td>
+                        <strong>Data Science Research Intrern</strong>
+                    </td>
+
+                    <td>
+                        <strong>August 2022 - December 2022</strong>
+                    </td>
+
+                    <td>
+                        <em>Performed data processing, analysis, and visualization of human activity data. The research investigates
+                            understanding how the unique lifestyles of people recover (when people return to their normal visits to POI’s) over time at a user-level, using a fine spatial granularity to capture the differential recovery experiences of people. The research will determine the homogeneity and heterogeneity characteristic of the human activity datasets to bring greater understanding to equitable recovery practices. Journal paper:</em>
+                        <center><strong><em>N. Coleman, T. Kakad, C. Liu, A. Mostafavi, "Homogeneity and Entropy Analysis of Use-Level Recovery to Lifestyles,"</em></strong></center>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>Mathematics Teaching Assistant</strong>
+                    </td>
+
+                    <td>
+                        <strong>August 2020 - December 2021</strong>
+                    </td>
+
+                    <td>
+                        <em>Grade exams and quizzes for MATH 251 (Calculus III) and MATH 308 (Differenitial Equaltions) and help students with thier doubts during the office hours.</em>
+                    </td>
+                </tr>
+            </table>
         </div>
 
         <hr>
 
         <div class="education">
             <h2>Education</h2>
-            <p><strong>B.S., Texas A&M University</strong> | <em>Fall 2018 - Fall 2022</em></p>
-            <p>Major - Computer Science</p>
-            <p>Minor - Cybersecurity, Mathematics</p>
+
+            <div class="content">
+                <p><strong>B.S., Texas A&M University</strong> | <em>Fall 2018 - Fall 2022</em></p>
+                <p>Major - Computer Science</p>
+                <p>Minor - Cybersecurity, Mathematics</p>
+            </div>
         </div>
 
         <hr>
         
         <div class="skills">
             <h2>Skills</h2>
-            <table style="margin: auto 1%" width="100%">
+            <table class="skill-table">
                 <tr>
                     <td>C/C++</td>
                     <td>Python</td>
@@ -84,12 +128,17 @@
         <div class="projects">
             <h2>Projects</h2>
 
-            <ul style="margin: auto 1%">
+            <ul>
                 <li><strong>EzFind (tourist guide web application):</strong> <em>A website where people can search for a holiday destination and get information about tourist attractions and restaurants to visit nearby the destination, its weather report, and the NEWS of the entered destination, constructed using React for the frontend, and JavaScript, Node.JS and Express.JS for the backend.</em></li>
+                
                 <li><strong>Personalized music recommender system:</strong> <em>A website like Netflix, that keeps track of music preference of the user and recommends music according to their preferences entered and their recent library.</em></li>
+                
                 <li><strong>Personal portfolio website (HTML, CSS, JavaScript, jQuery):</strong> <em>A completely functional portfolio website developed on TAMU server, with different tabs navigating to Home page, About Me page, Services page and Portfolio.</em></li>
+                
                 <li><strong>Matrix Factorization model:</strong> <em>Designed a program on python jupyter notebook to learn the latent factors for a given ratings dataset using gradient descent rule using NumPy and Pandas library of python.</em></li>
+                
                 <li><strong>Bayesian Personalized Ranking model:</strong> <em>Designed a program on python jupyter notebook using the NumPy and Pandas library to get a personalized ranking of movies by learning the recall and precision values for the implicit feedbacks for about 20 epochs and then find the average AUC for the entire model.</em></li>
+                
                 <li><strong>Ruby on Rails application:</strong> <em>A web application built on Ruby on rails platform for a library, which included a sign in page for employees and customers, events page, service logger page for employees to register their work hours and a page for customers to keep track of the books they borrowed, read and ones that are to be returned to the library.</em></li>
                 
                 <li><strong><a href="https://github.tamu.edu/conormai/CSCE-482/tree/master">Speed limit sign detector</a>:</strong> <em>A software built for autonomous driving vehicles that would use camera’s lodged in the car to capture several images of speed limit sign boards. These images would then be processed using the machine learning algorithm (made using SVM, CNN and KNN implementations). The entire software was built on ROS2 Foxy Fitzroy to be compatible with the vehicle’s computer.</em></li>
@@ -100,20 +149,77 @@
 
         <div class="courses">
             <h2>Courses Completed</h2>
-            <ul style="margin: auto 1%">
+
+            <ul>
                 <li><strong>CSCE 312:</strong> <em>Introduction to Computer System (Registers, Full and Half Adders, CPU design using HDL, and learning to use Assembly Language).</em></li>
+
                 <li><strong>CSCE 313:</strong> <em>Introduction to Operating System (Scheduling algorithms, Paging, Frame Allocation, Synchronization Mechanisms, Deadlocks, File allocation, Free Space management, threading, and pipelining concepts).</em></li>
+                
                 <li><strong>CSCE 315:</strong> <em>Programming Studio (HTML, CSS, JavaScript, React, Node.JS, Express.JS, and Database Management projects using PostgreSQL).</em></li>
+                
                 <li><strong>CSCE 420:</strong> <em>Introduction Artificial Intelligence, testing various algorithms (search, sort, minimax, expectimax).</em></li>
+                
                 <li><strong>CSCE 431:</strong> <em>Software engineering, Ruby on Rails, software architecture methods, peer reviewing assignments.</em></li>
+                
                 <li><strong>CSCE 435:</strong> <em>Parallel Computing (Threads, OpenMP, Parallel Architecture, MPI, GPU Programming, Graph Algorithms, Sorting).</em></li>
+                
                 <li><strong>CSCE 482:</strong> <em>Senior capstone design (worked on building a software for an autonomous driving vehicle).</em></li>
+                
                 <li><strong>CSCE 489:</strong> <em>Recommender Systems (Working with Implicit and Explicit feedbacks, Baseline estimate, Jaccard similarity, Cosine similarity, Netflix prize model, Matrix-factorization models, Bayesian Personalized Ranking).</em></li>
+                
                 <li><strong>MATH 470:</strong> <em>Communications and Cryptography (Fermat’s Little Theorem, Diffie-Hellman Protocol, Elgamal – Discrete Logarithmic Problem approach, Chinses Remainder Theorem, Euler’s Theorem, RSA, Pollards p-1 method).</em></li>
             </ul>
         </div>
 
         <hr>
+
+        <div class="activities">
+            <h2>Activities</h2>
+
+            <table>
+                <tr>
+                    <td>
+                        <strong>SPRING 2019</strong>
+                    </td>
+
+                    <td>
+                        <em>Chemistry Poster Presentation Winner.</em>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <strong>FALL 2021/SPRING 2019</strong>
+                    </td>
+
+                    <td>
+                        <em>TAMU Intramural soccer winner.</em>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <strong>SPRING 2022</strong>
+                    </td>
+
+                    <td>
+                        <em>Best Senior Capstone Design Project Presentation winner.</em>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <strong>FALL 2022</strong>
+                    </td>
+
+                    <td>
+                        <em>Created data models for Harvey and Ida hurricane analysis, that later got used in a research journal.</em>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- <hr>
 
         <div>
             <h2>Contact Me</h2>
@@ -134,13 +240,13 @@
 
                 <br>
                 
-                <label>Message:</label>
+                <label>Message:</label><br>
                 <textarea name="message" rows="10" cols="30"></textarea>
                 
                 <br>
                
                 <input type="submit" name="">
             </form>
-        </div>
+        </div> -->
     </body>
 </html>
